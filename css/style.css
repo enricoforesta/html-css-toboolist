@@ -1,29 +1,137 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-#logo{
+/* logo tobolist */
+
+#logo {
     width: 100px;
     height: 100px;
     vertical-align: middle;
 }
-main{
-    background-color: green;
-}
-#titolo{
+
+h1 {
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;
 }
-.button{
-    width: 780px;
-    background-color: white;
-    margin: 0 auto;
+
+/* /logo tobolist */
+
+main {
+    background-color: #f6f8f9;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.task{
+/* Button */
+
+.button {
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto -18px;
+}
+
+.task {
     background-color: #14aaf5;
     color: white;
-    border-radius: 15%;
     margin-left: 50px;
+    border: none;
+}
+
+.section {
+    background-color: white;
+    color: #c4cbd0;
+    border-color: #c4cbd0;
+    margin: 10px;
+}
+
+
+.section,
+.task {
+    border-radius: 15%;
+    padding: 8px 13px;
+}
+
+/* /Button */
+
+
+.contenitore {
+    width: 1000px;
+    height: 725px;
+    margin: 0 auto;
+    background-color: white;
+    line-height: 40px;
+}
+
+/* Titolo e lista */
+ul {
+    list-style: none;
+}
+
+.titolo {
+    margin-left: 50px
+}
+
+/* /Titolo e lista */
+
+/* check e cross */
+.checkgreen::before {
+    content: '\2713';
+    color: green;
+    border: 1px solid green;
+
+}
+
+.checkred::before {
+    content: '\2717';
+    color: red;
+    border: 1px solid red;
+}
+
+.checkred::before,
+.checkgreen::before {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* /check e cross */
+
+.box {
+    color: white;
+    border-radius: 25%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.blu {
+    background-color: #14aaf5;
+}
+
+.viola {
+    background-color: #ab5de6;
+}
+
+.verdeacqua {
+    background-color: #2cc6ab;
+}
+
+.arancione {
+    background-color: #ff9b00;
+}
+
+.rosa {
+    background-color: #ec4a9d;
+}
+
+.verde {
+    background-color: #a3d116;
 }
