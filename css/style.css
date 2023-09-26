@@ -1,6 +1,29 @@
-body {
+body{
     font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+main{
+    background-color: green;
 }
 #titolo{
     display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+}
+.button{
+    width: 780px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.task{
+    background-color: #14aaf5;
+    color: white;
+    border-radius: 15%;
+    margin-left: 50px;
 }
